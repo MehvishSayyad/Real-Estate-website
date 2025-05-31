@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Landing</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script> <!-- JavaScript file added here -->
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <nav class="top-right-nav">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    
+        <div class="hero-content">
+            <h1 class="fade-in">Find Your Dream Home</h1>
+            <p class="fade-in">Discover the best properties with us.</p>
+
+            <!-- Search Bar Replacing 'Get Started' Button -->
+            <div class="search-bar">
+                <select class="search-filter">
+                    <option value="all">Search By ▼</option>
+                    <option value="location">Location</option>
+                    <option value="zip">ZIP Code</option>
+                    <option value="Street">School</option>
+                </select>
+                <input type="text" placeholder="Type any Area, Address, ZIP, etc." class="search-input">
+                <button class="search-btn">Find Your Home</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <img src="images/about.jpg" alt="About Us" class="fade-in-left">
+            <div class="about-text fade-in-right">
+                <h2>About Us</h2>
+                <p>We provide the best real estate solutions for buyers and sellers.</p>
+
+                <!-- Vision & Mission Section -->
+                <div class="vision-mission">
+                    <h3>Our Vision</h3>
+                    <p>To be the most trusted and innovative real estate company, helping people find their dream homes with ease.</p>
+                    
+                    <h3>Our Mission</h3>
+                    <p>We aim to provide high-quality real estate services through transparency, technology, and customer satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="fade-in">Our Services</h2>
+        
+        <!-- House Buying Section -->
+        <div class="service-category">
+            <h3 class="fade-in">House Buying</h3>
+            <div class="service-cards">
+                <div class="service-card zoom-in">
+                    <img src="images/buy1.jpg" alt="House 1">
+                    <p>Luxury Villas</p>
+                    <button class="view-btn">View</button>
+                </div>
+                <div class="service-card zoom-in">
+                    <img src="images/buy2.jpg" alt="House 2">
+                    <p>Modern Apartments</p>
+                    <button class="view-btn">View</button>
+                </div>
+                <div class="service-card zoom-in">
+                    <img src="images/buy3.jpg" alt="House 3">
+                    <p>Suburban Homes</p>
+                    <button class="view-btn">View</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Rent Section -->
+        <div class="service-category">
+            <h3 class="fade-in">Rent Assistance</h3>
+            <div class="service-cards">
+                <div class="service-card zoom-in">
+                    <img src="images/rent1.jpg" alt="Rental 1">
+                    <p>City Apartments</p>
+                    <button class="view-btn">View</button>
+                </div>
+                <div class="service-card zoom-in">
+                    <img src="images/rent2.jpg" alt="Rental 2">
+                    <p>Bungalow</p>
+                    <button class="view-btn">View</button>
+                </div>
+                <div class="service-card zoom-in">
+                    <img src="images/rent3.jpg" alt="Rental 3">
+                    <p>Offices</p>
+                    <button class="view-btn">View</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="contact-container">
+        <div class="contact-image">
+            <img src="images/contact.jpg" alt="Contact Image">
+        </div>
+        <div class="contact-content">
+            <h2>Get in Touch</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
